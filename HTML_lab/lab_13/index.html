@@ -1,0 +1,23 @@
+<!--
+Create a HTML document to play audio.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Play Audio Example</title>
+  </head>
+  <body>
+    <h1>Welcome to the Auto Play Audio Example</h1>
+    <button onclick="document.getElementById('background-audio').play()">
+      Play Audio
+    </button>
+    <audio id="background-audio">
+      <source src="korakagaj.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <p>If you cannot hear the audio, please check your browser settings.</p>
+  </body>
+</html>
