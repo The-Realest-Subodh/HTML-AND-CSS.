@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.border-box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 100px;
+  padding: 20px;
+}
+
+.border-box {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.content-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(141, 133, 221);
+  margin: 100px;
+  padding: 20px;
+}
+
+.content-box {
+  box-sizing: content-box;
+}

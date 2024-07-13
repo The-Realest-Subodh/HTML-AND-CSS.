@@ -1,0 +1,30 @@
+.txt-color {
+  color: aquamarine;
+}
+
+.txt-alignment {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  text-align: center;
+}
+
+.txt-size {
+  font-size: 30px;
+}
+
+.font-family {
+  font-family: sans-serif;
+}
+
+.txt-decoration {
+  text-decoration-line: overline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}

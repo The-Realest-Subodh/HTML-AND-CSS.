@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-div {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.bdclass1,
+.bdclass2,
+.bdclass3,
+.bdclass4 {
+  height: 200px;
+  width: 200px;
+}
+
+.bdclass1 {
+  border: 1px solid black;
+}
+
+.bdclass2 {
+  border: 3px dotted black;
+}
+
+.bdclass3 {
+  border: 1px double black;
+}
+
+.bdclass4 {
+  border: 2px dashed black;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 5vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#div1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+#div2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+}
+#div3 {
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+}
