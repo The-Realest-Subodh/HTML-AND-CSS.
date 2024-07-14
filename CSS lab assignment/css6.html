@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Move Picture Animation</title>
+<style>
+    .moving-picture {
+        position: absolute;
+        left: 50px; /* Starting position */
+        top: 100px; /* Adjust as needed */
+        animation: moveRight 10s linear forwards; /* Animation name, duration, timing function, and fill mode */
+    }
+
+    @keyframes moveRight {
+        0% {
+            left: 50px; /* Starting position */
+        }
+        100% {
+            left: 500px; /* Ending position */
+        }
+    }
+</style>
+</head>
+<body>
+    <img src="C:\Users\thesu\Downloads\download.jpg" alt="Moving Picture" class="moving-picture">
+</body>
+</html>

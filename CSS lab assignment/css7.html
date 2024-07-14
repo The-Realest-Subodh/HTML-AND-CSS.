@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Move College Name Animation</title>
+<style>
+    .college-name {
+        position: absolute;
+        left: 50px; /* Starting position */
+        top: 50px; /* Adjust as needed */
+        animation: moveCollegeName 12s linear infinite; /* Animation name, duration, timing function, and repetition */
+    }
+
+    @keyframes moveCollegeName {
+        0%, 100% {
+            left: 50px; /* Starting position and return position */
+        }
+        50% {
+            left: 800px; /* Middle position */
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="college-name">BHAKTAPUR MULTIPLE CAMPUS</div>
+</body>
+</html>

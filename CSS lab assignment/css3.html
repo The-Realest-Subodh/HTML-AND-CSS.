@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Over Image</title>
+  <style>
+    /* CSS for the image container and text overlay */
+    .container {
+      position: relative;
+      width: 50%;
+      max-width: 600px; /* Adjust max-width as per your image size */
+    }
+    
+    .text-overlay {
+      position: absolute;
+      top: 50%; /* Adjust vertical position */
+      left: 20%; /* Adjust horizontal position */
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white; /* Text color */
+      background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+      padding: 20px;
+    }
+    
+    .text-overlay h2 {
+      margin-bottom: 10px;
+    }
+    
+    .text-overlay p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="download.jpg" alt="Background Image">
+    <div class="text-overlay">
+      <h2>Text Over Image</h2>
+      <p>Text is overlaid on image.</p>
+    </div>
+  </div>
+</body>
+</html>
