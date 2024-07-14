@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Listeners Capture</title>
+    <style>
+      .grandparent {
+        height: 600px;
+        width: 600px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .parent {
+        height: 400px;
+        width: 400px;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .child {
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grandparent">
+      <div class="parent">
+        <div class="child"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

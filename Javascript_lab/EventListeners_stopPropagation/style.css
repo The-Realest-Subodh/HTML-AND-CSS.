@@ -1,0 +1,21 @@
+.parent {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 25px;
+}
