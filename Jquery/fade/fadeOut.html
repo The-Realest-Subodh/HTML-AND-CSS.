@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("#div1").fadeOut(); // Fades out instantly
+          $("#div2").fadeOut("slow"); // Fades out slowly
+          $("#div3").fadeOut(3000); // Fades out over 3 seconds
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <p>Click for fade out</p>
+    <button>Click</button>
+
+    <div
+      id="div1"
+      style="width: 160px; height: 160px; background-color: red"
+    ></div>
+    <div
+      id="div2"
+      style="width: 160px; height: 160px; background-color: blue"
+    ></div>
+    <div
+      id="div3"
+      style="width: 160px; height: 160px; background-color: green"
+    ></div>
+  </body>
+</html>
